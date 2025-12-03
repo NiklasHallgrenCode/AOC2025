@@ -63,7 +63,6 @@ namespace AOC2025.Days
                         if (numbersToCheck.TrueForAll(n => n == numbersToCheck.First()))
                         {
                             invalidIds.Add(i);
-                            Console.WriteLine($"{i.ToString()} / {string.Join(" ", numbersToCheck)}");
                             break;
                         }
 
