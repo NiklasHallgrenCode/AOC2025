@@ -1,7 +1,7 @@
 ﻿using AOC2025.Days;
 
 
-int day = args.Length > 0 && int.TryParse(args[0], out var d) ? d : 3;
+int day = args.Length > 0 && int.TryParse(args[0], out var d) ? d : 4;
 
 Console.WriteLine($"Advent of Code 2025 - Day {day:00}");
 
@@ -30,6 +30,10 @@ switch (day)
     case 3:
         part1 = Day03.SolvePart1(input);
         part2 = Day03.SolvePart2(input);
+        break;
+    case 4:
+        part1 = Day04.SolvePart1(input);
+        part2 = Day04.SolvePart2(input);
         break;
 
     default:
