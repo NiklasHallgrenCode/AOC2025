@@ -6,7 +6,7 @@ namespace AOC2025.Days
     {
         public static string SolvePart1(string input)
         {
-            var productRanges = Helpers.ReadLines(input, ',');
+            var productRanges = Helpers.ReadLines(input, ",");
             List<BigInteger> invalidIds = new List<BigInteger>();
 
             foreach (var range in productRanges)
@@ -35,7 +35,7 @@ namespace AOC2025.Days
 
         public static string SolvePart2(string input)
         {
-            var productRanges = Helpers.ReadLines(input, ',');
+            var productRanges = Helpers.ReadLines(input, ",");
             List<BigInteger> invalidIds = new List<BigInteger>();
 
             foreach (var range in productRanges)
