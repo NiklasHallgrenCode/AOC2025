@@ -1,7 +1,7 @@
 ﻿using AOC2025.Days;
 
 
-int day = args.Length > 0 && int.TryParse(args[0], out var d) ? d : 5;
+int day = args.Length > 0 && int.TryParse(args[0], out var d) ? d : 6;
 
 Console.WriteLine($"Advent of Code 2025 - Day {day:00}");
 
@@ -38,6 +38,10 @@ switch (day)
     case 5:
         part1 = Day05.SolvePart1(input);
         part2 = Day05.SolvePart2(input);
+        break;    
+    case 6:
+        part1 = Day06.SolvePart1(input);
+        part2 = Day06.SolvePart2(input);
         break;
     default:
         Console.WriteLine($"Day {day} is not implemented yet.");

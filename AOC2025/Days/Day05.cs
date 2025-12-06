@@ -72,7 +72,6 @@ namespace AOC2025.Days
             foreach (var range in idRanges)
             {
                 sum += range.Item2 - range.Item1 + 1;
-                
             }
 
             return sum.ToString();
