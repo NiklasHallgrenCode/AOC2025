@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <!-- Culture-independent number formatting/parsing (no decimal commas or Unicode minus signs in answers). -->
+    <InvariantGlobalization>true</InvariantGlobalization>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Lets the runner find Inputs/ and AOC{year}/Days/ in the source tree regardless of the build output path. -->
+    <AssemblyMetadata Include="ProjectDirectory" Value="$(MSBuildProjectDirectory)" />
+  </ItemGroup>
+
+</Project>

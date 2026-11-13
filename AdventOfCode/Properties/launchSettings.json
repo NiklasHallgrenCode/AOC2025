@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "Latest day": {
+      "commandName": "Project"
+    },
+    "Latest day (example input)": {
+      "commandName": "Project",
+      "commandLineArgs": "--example"
+    }
+  }
+}

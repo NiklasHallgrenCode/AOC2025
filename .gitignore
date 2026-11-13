@@ -123,4 +123,5 @@ dotnet-tools.json
 # AOC
 ############################
 
+# Puzzle inputs (Advent of Code asks that they aren't shared) and the Inputs/.session cookie file.
 Inputs/
